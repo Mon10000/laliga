@@ -1,0 +1,59 @@
+/* การตั้งค่าเบื้องต้นสำหรับ body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* การตกแต่ง header */
+header {
+    background-color: #c8102e; /* สีของแอตเลติโก มาดริด */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* การตั้งค่าให้กับตาราง */
+.championship-table {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* การจัดรูปแบบตาราง */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #c8102e; /* สีของแอตเลติโก มาดริด */
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* การจัดการ footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #c8102e;
+    color: white;
+    font-size: 0.9rem;
+}
